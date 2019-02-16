@@ -14,7 +14,6 @@ def insert_sort(lists):
             if lists[j] > key:
                 lists[j+1], lists[j] = lists[j], key
             j -= 1
-        i += 1
     return lists
 
 if __name__ == "__main__":
